@@ -1,12 +1,8 @@
 {
   "routes": [
-    {
-      "route": "/support",
-      "rewrite": "/support.html"
-    },
-    {
-      "route": "/privacy",
-      "rewrite": "/privacy.html"
-    }
+    { "route": "/support-business", "rewrite": "/support-business.html" },
+    { "route": "/support-customer", "rewrite": "/support-customer.html" },
+    { "route": "/support", "rewrite": "/support-customer.html" },
+    { "route": "/privacy", "rewrite": "/privacy.html" }
   ]
 }
